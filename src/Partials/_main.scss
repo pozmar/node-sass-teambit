@@ -1,0 +1,22 @@
+.introduction{
+    background-color: $bg-main;
+    text-align: $align-i;
+}
+.introduction ul img{
+    width: 100px;
+}
+.main-img{
+    width: 300px;
+}
+.container{
+    max-width: $container-width;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+    display: $display-flex;
+    justify-content: $align-i;
+}
+ul{
+    display: $display-flex;
+    justify-content: space-around;
+    width: 100%;
+}

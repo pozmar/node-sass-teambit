@@ -1,0 +1,8 @@
+@for $i from 1 to 13{
+    .col-#{$i}{
+        width: 100% * $i / 12;
+    }
+}
+a{
+    text-decoration: $decoration-none;
+}
