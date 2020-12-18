@@ -54,12 +54,6 @@ a {
   text-decoration: none;
 }
 
-.container-full::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -68,6 +62,14 @@ a {
 
 .f-right {
   float: right;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1b2d70;
+  color: white;
 }
 
 .container {
@@ -105,15 +107,6 @@ p {
 
 nav {
   border-bottom: 1px solid black;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #1b2d70;
-  color: white;
 }
 
 .jumbo-pic {
@@ -189,5 +182,36 @@ ul {
 
 .box .half {
   width: 70%;
+}
+
+.start {
+  background-color: #f2d7c9;
+}
+
+.container-block {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.container-block h1 {
+  margin-top: 30px;
+}
+
+.container-block .box {
+  margin: 30px auto;
+  background-color: white;
+  padding: 70px;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid #1b2d70;
+}
+
+.container-block .box h1,
+.container-block .box button {
+  margin-top: 30px;
+}
+
+.container-block .button-box p {
+  display: block;
 }
 

@@ -19,7 +19,7 @@
 }
 .container-top{
     border-bottom: 1px solid black;
-   margin: 0 100px;
+    margin: 0 100px;
 }
 ul{
     display: $display-flex;
@@ -55,4 +55,34 @@ ul{
         width: 70%;
     }
 }
-
+//section start
+.start{
+    background-color: $bg-main;
+}
+.container-block{
+    text-align: $align-i;
+    padding-bottom: $pb-main;
+   
+    h1{
+            margin-top: $mt-start;
+        }
+   
+        .box{
+            margin: $mt-start auto;
+            background-color: white;
+            padding: $pt-main;
+            width: 70%;
+            border-radius: 10px;
+            border: 1px solid $color;
+                h1, button{
+            margin-top: $mt-start;
+        }
+    }
+        .button-box{
+            p{
+            display: block;
+                }
+            }
+            
+    
+}

@@ -6,11 +6,6 @@
 a{
     text-decoration: $decoration-none;
 }
-.container-full::after{
-    content: "";
-    clear: both;
-    display: table;
-  }
   *{
     padding: 0;
     margin: 0;
@@ -18,4 +13,11 @@ a{
 }
 .f-right{
     float: right;
+}
+.btn{
+    display: $display-inline;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  #1b2d70;
+    color: white;
 }
