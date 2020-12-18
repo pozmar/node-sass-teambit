@@ -115,6 +115,7 @@ li {
 
 .main-img {
   width: 300px;
+  padding-bottom: 70px;
 }
 
 .container-main {
@@ -125,9 +126,22 @@ li {
   justify-content: center;
 }
 
+.container-top {
+  border-bottom: 1px solid black;
+  margin: 0 100px;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+h3:not(.last) {
+  padding-top: 70px;
+}
+
+.last {
+  padding-bottom: 70px;
 }
 
