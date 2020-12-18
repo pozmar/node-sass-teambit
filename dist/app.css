@@ -50,6 +50,21 @@
   width: 100%;
 }
 
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #7F14D4;
+}
+
 a {
   text-decoration: none;
 }
@@ -72,6 +87,31 @@ a {
   color: white;
 }
 
+ul {
+  list-style: none;
+}
+
+footer .container-block {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  padding-top: 70px;
+}
+
+footer ul {
+  display: block;
+}
+
+footer ul li {
+  display: block;
+  margin-top: 10px;
+}
+
+footer ul li a {
+  color: #7F14D4;
+}
+
 .container {
   max-width: 1170px;
   padding-left: 100px;
@@ -80,8 +120,8 @@ a {
   justify-content: space-between;
 }
 
-li,
-p {
+.right li,
+.right p {
   display: inline-block;
 }
 
@@ -89,6 +129,7 @@ p {
 .right {
   display: flex;
   align-items: center;
+  width: 50%;
 }
 
 .bottone {
@@ -113,13 +154,18 @@ nav {
   width: 600px;
 }
 
+.jumbotron h1 {
+  margin-top: 70px;
+}
+
 li {
   margin-right: 20px;
 }
 
 .introduction {
-  background-color: #f2d7c9;
+  background-color: #0414B3;
   text-align: center;
+  color: white;
 }
 
 .introduction ul img {
@@ -140,7 +186,7 @@ li {
 }
 
 .container-top {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin: 0 100px;
 }
 
@@ -152,6 +198,10 @@ ul {
 
 .introduction h3:not(.last) {
   padding-top: 70px;
+}
+
+.introduction h3 {
+  padding-bottom: 70px;
 }
 
 .last {
@@ -185,7 +235,8 @@ ul {
 }
 
 .start {
-  background-color: #f2d7c9;
+  background-color: #0414B3;
+  color: white;
 }
 
 .container-block {

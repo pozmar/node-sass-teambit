@@ -1,0 +1,20 @@
+footer{
+    .container-block{
+        display: flex;
+        padding-left: $container-padding;
+        padding-right: $container-padding;
+        text-align: left;
+        padding-top: $pt-main;
+    }
+    ul{
+        display: block;
+    
+        li{
+            display: block;
+            margin-top: 10px;
+            a{
+                color: $font-color;
+            }
+    }
+}
+}

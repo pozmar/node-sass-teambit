@@ -5,12 +5,15 @@
     display: $display-flex;
     justify-content: $justify-between;
 }
-li, p{
+.right{
+    li, p{
     display: $display-inline;
+}
 }
 .left, .right{
     display: $display-flex;
     align-items: $align-i;
+    width: 50%;
 }
 .bottone{
     display: $display-flex;
@@ -30,6 +33,11 @@ nav{
 
 .jumbo-pic{
     width: 600px;
+}
+.jumbotron{
+    h1{
+        margin-top: $pt-main;
+    }
 }
 @each $itemList in li{
     #{$itemList}{

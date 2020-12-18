@@ -2,6 +2,7 @@
 .introduction{
     background-color: $bg-main;
     text-align: $align-i;
+    color: white;
 }
 .introduction ul img{
     width: 100px;
@@ -18,7 +19,7 @@
     justify-content: $align-i;
 }
 .container-top{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     margin: 0 100px;
 }
 ul{
@@ -29,6 +30,9 @@ ul{
 .introduction{
     h3:not(.last){
     padding-top: $pt-main;
+    }
+    h3{
+        padding-bottom: $pb-main;
     }
 }
 .last{
@@ -58,6 +62,7 @@ ul{
 //section start
 .start{
     background-color: $bg-main;
+    color: white;
 }
 .container-block{
     text-align: $align-i;
