@@ -14,3 +14,10 @@ $decoration-none: none;
 //padding-main
 $pt-main: 70px;
 $pb-main: 70px;
+//path structure
+@each $container in path {
+    .#{$container}{
+        padding-top: $pt-main;
+    }
+}
+$box-width: 50%;

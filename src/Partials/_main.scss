@@ -1,3 +1,4 @@
+//section introduction
 .introduction{
     background-color: $bg-main;
     text-align: $align-i;
@@ -25,9 +26,33 @@ ul{
     justify-content: space-around;
     width: 100%;
 }
-h3:not(.last){
+.introduction{
+    h3:not(.last){
     padding-top: $pt-main;
+    }
 }
 .last{
     padding-bottom: $pb-main;
 }
+//section path
+.container-full{
+    padding-top: $pt-main;
+    display: $display-flex;
+    justify-content: $align-i;
+}
+.container-full:nth-of-type(1){
+    padding-top: 0;
+}
+.pic{
+    width: 50%;
+}
+.description{
+    width: 400px;
+}
+.box{
+    width: $box-width;
+    .half{
+        width: 70%;
+    }
+}
+
